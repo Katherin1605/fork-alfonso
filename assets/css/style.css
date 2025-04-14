@@ -7,25 +7,25 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #000000; /* Fondo negro */
-  color: white; /* Texto blanco */
+  background-color: #212529; /* Fondo negro */
+  color: #f2f2f2; /* Texto blanco */
 }
 
 /* HEADER (navbar) */
 header {
-  background-color: navy; /* Azul marino (Navy) */
+  background-color: #141470; /* Azul marino (Navy) */
   padding: 15px 0; /* Aseguramos que el padding sea consistente entre las páginas */
 }
 
 .navbar {
-  background-color: navy; /* Fondo azul marino */
+  background-color: #141470; /* Fondo azul marino */
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  color: white;
+  color: #f2f2f2;
 }
 
 .foto-container {
@@ -57,11 +57,12 @@ h3 {
 }
 
 section {
-  margin: 15px;
+  padding: 3rem;
+  border-bottom: 1px solid #4c4c4c;
 }
 
-.separacion-inicio {
-  margin: 15px 0;
+.inicio {
+  background-color: #111111;
 }
 
 /* Centrando los párrafos de Educación y Experiencia */
@@ -91,7 +92,7 @@ section {
 }
 
 footer {
-  background-color: navy; /* Azul marino (Navy) */
+  background-color: #141470; /* Azul marino (Navy) */
   text-align: center;
   padding: 15px 0; /* Aseguramos que el padding sea igual al del header */
   position: fixed;
